@@ -3,7 +3,11 @@
 spring:
   application:
     name: pthore-auth-service
-    
+  devtools:
+    restart:
+      enabled: false
+    livereload:
+      enabled: false    
   profiles:
     active:
     - default
